@@ -14,7 +14,7 @@ function App() {
   })
 
   return (
-    <a-scene>
+    <a-scene vr-mode-ui="enabled: true">
       <a-assets>
         <img id= "sky" src={sky} />
       </a-assets>
